@@ -14,7 +14,8 @@ function calculateDecimal() {
    
  
     // BMI Calculation
-    const bmi =   (((((((((katha * 20) + dhur) * 20 ) + dhurki ) * 20) + furki) * 20 ) + churki ) / 5.375 ).toFixed(3);
+    const bmi =   ((((((((katha * 20) + dhur) * 20 ) + dhurki ) * 20) + furki) * 20 ) + churki )
+    // const bmi =   (((((((((katha * 20) + dhur) * 20 ) + dhurki ) * 20) + furki) * 20 ) + churki ) / 5.375 ).toFixed(3);
     // const bmi = (((katha * 20) + dhur) / 5.375 ).toFixed(4);
     result.innerText = `Total Decimal: ${bmi}`; 
 
